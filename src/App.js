@@ -39,7 +39,7 @@ function Formularz(){
     }}>
       <label for="imie">Imię i nazwisko</label><br />
       <input type='text' id='imie' onChange={ e => setNazwa(e.target.value) } /><br />
-      <label for="numer">Imię i nazwisko</label><br />
+      <label for="numer">Kurs</label><br />
       <input type='number' id='numer' onChange={ e => setNumer(e.target.value) } /><br />
       <button type='submit'>Zatwierdź</button>
     </form>
