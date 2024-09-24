@@ -2,6 +2,8 @@ import logo from './logo.svg';
 import 'bootstrap/dist/css/bootstrap.css';
 import { useState } from 'react';
 import './App.css';
+import { Books } from './Books';
+
 
 // Tworzenie tablicy string
 const kursy = [
@@ -59,6 +61,7 @@ function App() {
       <LiczbaKursow />
       <ListaKursow />
       <Formularz />
+      <Books />
     </>
   );
 }
